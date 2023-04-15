@@ -1,4 +1,4 @@
-package inc.stoicalien.exercicio2;
+package inc.stoicalien.IUnidade.exercicio2;
 
 public class Imovel {
     private String endereco;

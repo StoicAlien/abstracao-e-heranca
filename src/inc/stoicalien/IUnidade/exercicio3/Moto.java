@@ -1,16 +1,16 @@
-package inc.stoicalien.exercicio3;
+package inc.stoicalien.IUnidade.exercicio3;
 
-public class Carro extends Veiculo {
+public class Moto extends Veiculo {
     private int velocidadeAtual;
 
-    public Carro(String modelo, int ano, int velocidadeAtual) {
+    public Moto(String modelo, int ano, int velocidadeAtual) {
         super(modelo, ano, velocidadeAtual);
         this.velocidadeAtual = velocidadeAtual;
     }
 
     @Override
     public void acelerar() {
-        velocidadeAtual += 5;
+        velocidadeAtual += 9;
     }
 
     @Override
@@ -30,7 +30,7 @@ public class Carro extends Veiculo {
 
     @Override
     public String toString() {
-        return "Carro{" + "modelo= " + super.getModelo()
+        return "Moto{" + "modelo= " + super.getModelo()
                 + ", ano= " + super.getAno()
                 + ", velocidadeAtual= " + velocidadeAtual + "}";
     }

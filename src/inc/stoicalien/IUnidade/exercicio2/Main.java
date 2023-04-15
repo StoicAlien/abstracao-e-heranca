@@ -1,4 +1,4 @@
-package inc.stoicalien.exercicio2;
+package inc.stoicalien.IUnidade.exercicio2;
 
 /*
 Exercício 2: Crie a classe Imovel, que possui um endereço e um preço.

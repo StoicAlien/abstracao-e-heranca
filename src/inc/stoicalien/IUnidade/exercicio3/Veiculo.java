@@ -1,4 +1,4 @@
-package inc.stoicalien.exercicio3;
+package inc.stoicalien.IUnidade.exercicio3;
 
 public abstract class Veiculo {
     private String modelo;

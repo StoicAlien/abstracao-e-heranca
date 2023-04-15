@@ -1,4 +1,4 @@
-package inc.stoicalien.exercicio3;
+package inc.stoicalien.IUnidade.exercicio3;
 
 /*
 Exercício 3: Crie uma classe abstrata chamada "Veiculo" que tenha os seguintes
