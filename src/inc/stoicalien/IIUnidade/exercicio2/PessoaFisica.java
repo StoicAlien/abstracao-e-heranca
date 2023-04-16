@@ -42,7 +42,7 @@ public class PessoaFisica extends Pessoa {
     @Override
     public String toString() {
         return "Pessoa Física:" + " nome= " + getNome() + " |"
-                + " rendaBruta= " + getRendaBruta()
+                + " rendaBruta= R$" + getRendaBruta()
                 + " | imposto a pagar = R$"
                 + impostoAPagar;
     }

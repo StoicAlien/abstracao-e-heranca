@@ -31,8 +31,8 @@ public class PessoaJuridica extends Pessoa {
 
     @Override
     public String toString() {
-        return "Pessoa Jurídica"  + " empresa= " + getNome() + " |"
-                + " rendaBruta= " + getRendaBruta()
+        return "Pessoa Jurídica:"  + " empresa= " + getNome() + " |"
+                + " rendaBruta= R$" + getRendaBruta()
                 + " | imposto a pagar = R$"
                 + impostoAPagar;
     }

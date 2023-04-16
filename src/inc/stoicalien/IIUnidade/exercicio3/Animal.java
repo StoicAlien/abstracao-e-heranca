@@ -40,7 +40,7 @@ public abstract class Animal {
 
     @Override
     public String toString() {
-        return "Animal{" + "nome= " + nome + ", cor= " + cor + ", "
+        return "{" + "nome= " + nome + ", cor= " + cor + ", "
                 + "ambiente= " + ambiente + ", comprimento= " + comprimento + 
                 "cm , patas= " + patas + ", velocidade= " + velocidade + " km/h" +
                 '}';

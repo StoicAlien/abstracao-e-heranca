@@ -9,7 +9,7 @@ public class Mamifero extends Animal {
 
     @Override
     public String toString() {
-        return super.toString(); //To change body of generated methods, choose Tools | Templates.
+        return "Mamífero" + super.toString(); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
