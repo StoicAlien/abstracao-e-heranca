@@ -33,15 +33,26 @@ public class Main {
     
     private static List jardimZoologico = new LinkedList();
     public static void main(String[] args) {
-        Animal animal1 = new Mamifero("camelo", "marrom", 255, 10);
-        Animal animal2 = new Mamifero("urso do canadá", "preto", 240, 40);
-        Animal animal3 = new Mamifero("gato", "malhado", 35, 48);
-        Animal animal4 = new Mamifero("morcego", "preto", 10, 80);
+        Animal animal1 = new Mamifero("camelo".toUpperCase(), "marrom", 255, 10,
+                "cactos, espinhos e arbustos");
+        Animal animal2 = new Mamifero("urso do canadá".toUpperCase(), "preto", 240, 40,
+                "bagas, nozes, raízes, insetos, peixes e pequenos mamíferos");
+        Animal animal3 = new Mamifero("gato".toUpperCase(), "malhado", 35, 48,
+                "ração, pássaros, roedores e insetos");
+        Animal animal4 = new Mamifero("morcego".toUpperCase(), "preto", 10, 80,
+                "frutas, néctar, insetos, aranhas e outros animais pequenos");
         
-        Animal animal5 = new Peixe("tubarão", "azul", 400, 70);
-        Animal animal6 = new Peixe("salmão", "prata", 70, 6);
-        Animal animal7 = new Peixe("peixe-palhaço", "laranja", 10, 4);
-        Animal animal8 = new Peixe("pirarucu", "marrom esverdeado", 300, 40);
+        Animal animal5 = new Peixe("tubarão".toUpperCase(), "cinza", 400, 70,
+                "corpo hidrodinâmico em forma de torpedo, uma pele áspera e"
+                        + " escamosa, nadadeiras pontiagudas e dentes afiados");
+        Animal animal6 = new Peixe("salmão".toUpperCase(), "prata", 70, 6, 
+                "corpo alongado e escamoso, com uma cabeça pequena e uma boca larga");
+        Animal animal7 = new Peixe("peixe-palhaço".toUpperCase(), "laranja", 10, 4,
+                "pele lisa e brilhante e três faixas brancas distintas em seu"
+                        + " corpo alaranjado, nadadeiras pontiagudas e em tons"
+                        + " de laranja ou amarelo");
+        Animal animal8 = new Peixe("pirarucu".toUpperCase(), "marrom esverdeado", 300, 40, 
+                "corpo alongado e escamoso e uma cabeça grande e arredondada");
         
         jardimZoologico.add(animal1);
         jardimZoologico.add(animal2);
@@ -57,7 +68,7 @@ public class Main {
 
     private static void imprimirJardimZoologico() {
         for (Object animal : jardimZoologico) {
-            System.out.println(animal);
+            System.out.println(animal + "\n");
         }
     }
     

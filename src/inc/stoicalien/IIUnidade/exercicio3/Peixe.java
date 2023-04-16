@@ -2,9 +2,15 @@ package inc.stoicalien.IIUnidade.exercicio3;
 
 /* @author rickt */
 public class Peixe extends Animal {
+    private String caracteristicas;
 
-    public Peixe(String nome, String cor, int comprimento, int velocidade) {
+    public Peixe(String nome, String cor, int comprimento, int velocidade, String caracteristicas) {
         super(nome, cor, "mar", comprimento, 0, velocidade);
+        this.caracteristicas = caracteristicas;
+    }
+
+    public String getCaracteristicas() {
+        return caracteristicas;
     }
 
     @Override
@@ -39,7 +45,8 @@ public class Peixe extends Animal {
 
     @Override
     public String toString() {
-        return "Peixe" + super.toString(); //To change body of generated methods, choose Tools | Templates.
+        return "Peixe" + super.toString() + "características= "
+                + caracteristicas + "}"; //To change body of generated methods, choose Tools | Templates.
     }
     
 }

@@ -33,14 +33,14 @@ public class Main {
     
     private static List contribuintes = new LinkedList();
     public static void main(String[] args) {
-        Pessoa pf1 = new PessoaFisica("Shepard", 1500);
-        Pessoa pf2 = new PessoaFisica("Garrus", 2450);
-        Pessoa pf3 = new PessoaFisica("Tali", 3462);
-        Pessoa pf4 = new PessoaFisica("Joker", 1346.66);
-        Pessoa pj1 = new PessoaJuridica("Cerberus", 367438.5);
-        Pessoa pj2 = new PessoaJuridica("Eclipse", 75630);
-        Pessoa pj3 = new PessoaJuridica("Spectre", 38210);
-        Pessoa pj4 = new PessoaJuridica("Blue Suns", 64783.1);        
+        Pessoa pf1 = new PessoaFisica("Shepard".toUpperCase(), 1500, "01234567891");
+        Pessoa pf2 = new PessoaFisica("Garrus".toUpperCase(), 2450, "01234567892");
+        Pessoa pf3 = new PessoaFisica("Tali".toUpperCase(), 3462, "01234567893");
+        Pessoa pf4 = new PessoaFisica("Joker".toUpperCase(), 1346.66, "01234567894");
+        Pessoa pj1 = new PessoaJuridica("Cerberus".toUpperCase(), 367438.5, "01234567895");
+        Pessoa pj2 = new PessoaJuridica("Eclipse".toUpperCase(), 75630, "01234567896");
+        Pessoa pj3 = new PessoaJuridica("Spectre".toUpperCase(), 38210, "01234567897");
+        Pessoa pj4 = new PessoaJuridica("Blue Suns".toUpperCase(), 64783.1, "01234567898");
         
         contribuintes.add(pf1);
         contribuintes.add(pf2);
@@ -56,7 +56,7 @@ public class Main {
 
     private static void imprimirContribuintes() {
         for (Object contribuinte : contribuintes) {
-            System.out.println(contribuinte);
+            System.out.println(contribuinte + "\n");
         }
     }
     

@@ -2,14 +2,21 @@ package inc.stoicalien.IIUnidade.exercicio3;
 
 /* @author rickt */
 public class Mamifero extends Animal {
+    private String alimento;
 
-    public Mamifero(String nome, String cor, int comprimento, int velocidade) {
+    public Mamifero(String nome, String cor, int comprimento, int velocidade, String alimento) {
         super(nome, cor, "terra", comprimento, 4, velocidade);
+        this.alimento = alimento;
+    }
+
+    public String getAlimento() {
+        return alimento;
     }
 
     @Override
     public String toString() {
-        return "Mamífero" + super.toString(); //To change body of generated methods, choose Tools | Templates.
+        return "Mamífero" + super.toString() +
+                "alimento= " + alimento + "}"; //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override

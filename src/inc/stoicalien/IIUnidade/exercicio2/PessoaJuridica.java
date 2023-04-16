@@ -4,8 +4,8 @@ package inc.stoicalien.IIUnidade.exercicio2;
 public class PessoaJuridica extends Pessoa {
     private double impostoAPagar;
 
-    public PessoaJuridica(String nome, double rendaBruta) {
-        super(nome, rendaBruta);
+    public PessoaJuridica(String nome, double rendaBruta, String cpfCnpj) {
+        super(nome, rendaBruta, cpfCnpj);
         calcularImposto();
     }
 
@@ -30,8 +30,14 @@ public class PessoaJuridica extends Pessoa {
     }
 
     @Override
+    public String getCpfCnpj() {
+        return super.getCpfCnpj(); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
     public String toString() {
         return "Pessoa Jurídica:"  + " empresa= " + getNome() + " |"
+                + " cnpj= " + getCpfCnpj() + " |"
                 + " rendaBruta= R$" + getRendaBruta()
                 + " | imposto a pagar = R$"
                 + impostoAPagar;
