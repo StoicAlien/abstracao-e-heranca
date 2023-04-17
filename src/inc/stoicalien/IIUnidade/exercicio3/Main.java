@@ -31,7 +31,7 @@ seguintes animais: camelo, tubarão, urso`do`canadá.
 
 public class Main {
     
-    private static List jardimZoologico = new LinkedList();
+    private static List<Animal> jardimZoologico = new LinkedList<>();
     public static void main(String[] args) {
         Animal animal1 = new Mamifero("camelo".toUpperCase(), "marrom", 255, 10,
                 "cactos, espinhos e arbustos");
@@ -67,7 +67,7 @@ public class Main {
     }
 
     private static void imprimirJardimZoologico() {
-        for (Object animal : jardimZoologico) {
+        for (Animal animal : jardimZoologico) {
             System.out.println(animal + "\n");
         }
     }

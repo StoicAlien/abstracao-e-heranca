@@ -31,7 +31,7 @@ contribuintes, sendo 3 PJ e 3 PF.
 
 public class Main {
     
-    private static List contribuintes = new LinkedList();
+    private static List<Pessoa> contribuintes = new LinkedList<>();
     public static void main(String[] args) {
         Pessoa pf1 = new PessoaFisica("Shepard".toUpperCase(), 1500, "01234567891");
         Pessoa pf2 = new PessoaFisica("Garrus".toUpperCase(), 2450, "01234567892");
@@ -55,7 +55,7 @@ public class Main {
     }
 
     private static void imprimirContribuintes() {
-        for (Object contribuinte : contribuintes) {
+        for (Pessoa contribuinte : contribuintes) {
             System.out.println(contribuinte + "\n");
         }
     }
