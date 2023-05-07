@@ -1,4 +1,4 @@
-package inc.stoicalien.IIUnidade.exercicio2;
+package inc.stoicalien.IIUnidade.atividade1.exercicio2;
 
 /* @author rickt */
 public class PessoaJuridica extends Pessoa {

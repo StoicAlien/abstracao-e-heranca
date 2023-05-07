@@ -1,4 +1,4 @@
-package inc.stoicalien.IIUnidade.exercicio2;
+package inc.stoicalien.IIUnidade.atividade1.exercicio2;
 
 import java.util.LinkedList;
 import java.util.List;
