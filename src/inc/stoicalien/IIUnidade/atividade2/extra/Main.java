@@ -1,6 +1,6 @@
 /*
 EXTRA – Crie um algoritmo em Java com método para calcular potência.
-Usar recursividade.
+Usar recursividade./
  */
 
 package inc.stoicalien.IIUnidade.atividade2.extra;
